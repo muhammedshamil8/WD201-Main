@@ -3,6 +3,12 @@ const app = express();
 const { Todo } = require("./models");
 const bodyParser = require("body-parser");
 app.use(bodyParser.json());
+// const cors = require("cors");
+// app.use(cors());
+
+const { sequelize } = require("./models/index");
+
+sequelize.sync({ force: false });
 
 app.get("/", function (request, response) {
   response.send("Hello World");

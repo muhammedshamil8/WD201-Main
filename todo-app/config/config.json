@@ -16,9 +16,10 @@
   },
   "production": {
     "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "password": "0Bj6VhFCNVoSHwv3Wn6CnYDA2QlMaYGo",
+    "database": "database_production_dpn9",
+    "host": "dpg-d0vlaafdiees73evsgv0-a",
+    "dialect": "postgres",
+    "port": 5432
   }
 }
