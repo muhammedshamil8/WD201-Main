@@ -3,5 +3,5 @@ services:
     name: todo-app
     runtime: node
     buildCommand: npm install
-    startCommand: npm start
+    startCommand: node index.js
     env: node
